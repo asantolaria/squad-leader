@@ -1,0 +1,1096 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Guía didáctica en castellano para aprender a jugar a Squad Leader (Avalon Hill, 1977) y sus módulos.">
+      
+      
+        <meta name="author" content="Alex Santolaria">
+      
+      
+        <link rel="canonical" href="https://asantolaria.github.io/squad-leader/01-introduccion-componentes/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../02-secuencia-de-juego/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>01 · Introducción y componentes - Guía de Squad Leader</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="brown" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#01-introduccion-y-componentes" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="Guía de Squad Leader" class="md-header__button md-logo" aria-label="Guía de Squad Leader" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v2H5zM17 2v3h-2V2h-2v3h-2V2H9v3H7V2H5v6h2v10h10V8h2V2z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Guía de Squad Leader
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              01 · Introducción y componentes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="brown" data-md-color-accent="deep-orange"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="deep-orange"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Guía de Squad Leader" class="md-nav__button md-logo" aria-label="Guía de Squad Leader" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v2H5zM17 2v3h-2V2h-2v3h-2V2H9v3H7V2H5v6h2v10h10V8h2V2z"/></svg>
+
+    </a>
+    Guía de Squad Leader
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 · Introducción y componentes
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 · Introducción y componentes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-es-squad-leader" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ¿Qué es Squad Leader?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#componentes-del-juego" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Componentes del juego
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Componentes del juego">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#los-mapas-geomorficos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Los mapas (geomórficos)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#las-fichas-counters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Las fichas (counters)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#los-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Los dados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#las-tablas-charts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Las tablas (charts)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-se-lee-una-ficha-de-infanteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cómo se lee una ficha de infantería
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-se-lee-un-lider" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cómo se lee un líder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conceptos-que-conviene-tener-claros-desde-el-principio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conceptos que conviene tener claros desde el principio
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-secuencia-de-juego/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 · Secuencia de juego
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-movimiento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 · Movimiento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-fuego-y-combate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 · Fuego y combate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-moral-y-liderazgo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 · Moral y liderazgo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-terreno-y-edificios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 · Terreno y edificios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-blindados-y-vehiculos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 · Blindados y vehículos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-canones-y-armas-de-apoyo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 · Cañones y armas de apoyo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-modulos-y-reglas-avanzadas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 · Módulos y reglas avanzadas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-referencia-rapida/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 · Referencia rápida
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-glosario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    11 · Glosario y siglas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-es-squad-leader" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ¿Qué es Squad Leader?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#componentes-del-juego" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Componentes del juego
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Componentes del juego">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#los-mapas-geomorficos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Los mapas (geomórficos)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#las-fichas-counters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Las fichas (counters)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#los-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Los dados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#las-tablas-charts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Las tablas (charts)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-se-lee-una-ficha-de-infanteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cómo se lee una ficha de infantería
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-se-lee-un-lider" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cómo se lee un líder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conceptos-que-conviene-tener-claros-desde-el-principio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conceptos que conviene tener claros desde el principio
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="01-introduccion-y-componentes">01 – Introducción y componentes<a class="headerlink" href="#01-introduccion-y-componentes" title="Permanent link">&para;</a></h1>
+<p><a href="../">⟵ Volver al índice</a> · <a href="../02-secuencia-de-juego/">Siguiente: Secuencia de juego ⟶</a></p>
+<hr />
+<h2 id="que-es-squad-leader">¿Qué es <em>Squad Leader</em>?<a class="headerlink" href="#que-es-squad-leader" title="Permanent link">&para;</a></h2>
+<p><em>Squad Leader</em> es un <strong>juego de guerra táctico</strong> de la Segunda Guerra Mundial. Cada
+jugador dirige una pequeña fuerza de <strong>infantería</strong> (y, en los módulos, blindados y
+cañones) en combates a escala de <strong>pelotón</strong> (en inglés <em>squad</em>): cada ficha de infantería
+representa más o menos una <strong>escuadra de 8–12 hombres</strong>, y cada hexágono del mapa equivale
+a unos <strong>40 metros</strong> de terreno real. Un turno completo representa aproximadamente <strong>dos
+minutos</strong> de combate.</p>
+<p>Es un juego <strong>por turnos alternos</strong>: primero actúa un bando entero (con todas sus fases) y
+luego el otro. Lo que lo hizo histórico en 1977 fue su sistema de <strong>instrucción
+programada</strong>: en lugar de un tocho de reglas, te dan 12 escenarios y cada uno introduce
+reglas nuevas poco a poco. Empiezas moviendo y disparando infantería; acabas gestionando
+carros, artillería, fortificaciones y reglas de visión nocturna.</p>
+<p>La familia completa, en orden:</p>
+<ol>
+<li><strong>Squad Leader</strong> (1977) – juego base. Infantería alemana, soviética y estadounidense.</li>
+<li><strong>Cross of Iron</strong> (1978) – frente del Este; introduce a fondo los <strong>blindados</strong>.</li>
+<li><strong>Crescendo of Doom</strong> (1979) – primeros años de la guerra; añade más naciones
+   (británicos, franceses, italianos, etc.), caballería, reglas de 1939–41.</li>
+<li><strong>GI: Anvil of Victory</strong> (1982) – frente del Oeste; el módulo más grande, con el
+   arsenal aliado occidental completo, aviación, anfibios, etc.</li>
+</ol>
+<blockquote>
+<p>Más adelante, todo este sistema fue rehecho desde cero como <strong>Advanced Squad Leader
+(ASL)</strong>, un juego distinto y más detallado. Esta guía cubre el sistema <strong>clásico</strong>.</p>
+</blockquote>
+<hr />
+<h2 id="componentes-del-juego">Componentes del juego<a class="headerlink" href="#componentes-del-juego" title="Permanent link">&para;</a></h2>
+<h3 id="los-mapas-geomorficos">Los mapas (geomórficos)<a class="headerlink" href="#los-mapas-geomorficos" title="Permanent link">&para;</a></h3>
+<p>El juego base trae <strong>cuatro tableros</strong> de cartón (numerados 1 a 4) cubiertos por una
+<strong>rejilla hexagonal</strong>. Son <em>geomórficos</em>: están diseñados para encajar unos con otros por
+cualquier borde, de modo que cada escenario te dice qué tableros usar y cómo colocarlos.
+Así se generan campos de batalla distintos: una aldea, un bosque, colinas, trigales, etc.</p>
+<p>Cada <strong>hexágono</strong> (o "hex") es la unidad de espacio. Una unidad ocupa un hex y se mueve de
+hex en hex. Cada hex tiene un <strong>tipo de terreno</strong> (claro, bosque, edificio, trigal,
+huerto…) que afecta al movimiento, a la cobertura y a la línea de visión.</p>
+<p>Los hexes están <strong>numerados</strong> con coordenadas (por ejemplo, "3P6" = tablero 3, columna P,
+fila 6), lo que permite a los escenarios decirte exactamente dónde se despliega cada cosa.</p>
+<h3 id="las-fichas-counters">Las fichas (counters)<a class="headerlink" href="#las-fichas-counters" title="Permanent link">&para;</a></h3>
+<p>Son cuadraditos de cartón. Los tipos principales:</p>
+<ul>
+<li><strong>Pelotones de infantería (squads):</strong> la unidad básica. Una escuadra de fusileros.</li>
+<li><strong>Medios pelotones (half-squads):</strong> media escuadra; aparecen al sufrir bajas o al
+  dividir un pelotón.</li>
+<li><strong>Líderes (leaders):</strong> oficiales y suboficiales. No combaten apenas por sí mismos, pero
+  <strong>multiplican</strong> la eficacia de las tropas a su alrededor.</li>
+<li><strong>Armas de apoyo (Support Weapons, SW):</strong> ametralladoras ligeras/medias/pesadas,
+  morteros, lanzallamas, cargas de demolición, fáusticos/bazucas… Se "transportan" y las
+  usan los pelotones.</li>
+<li><strong>Cañones (Guns):</strong> antitanque, de infantería, antiaéreos, obuses. Más grandes, con
+  dotación.</li>
+<li><strong>Vehículos:</strong> carros, cazacarros, semiorugas, camiones (sobre todo desde <em>Cross of
+  Iron</em>).</li>
+<li><strong>Fortificaciones y marcadores:</strong> alambradas, búnkeres, campos de minas, y marcadores de
+  estado (humo, fuego, unidad "rota", etc.).</li>
+</ul>
+<h3 id="los-dados">Los dados<a class="headerlink" href="#los-dados" title="Permanent link">&para;</a></h3>
+<p>Se juega con <strong>dos dados de seis caras (2d6)</strong>. Casi todas las resoluciones consisten en
+tirar 2d6, aplicar modificadores y consultar una tabla. Conviene tener los dados de dos
+colores distintos: en algunas tablas el dado "blanco" y el "de color" se leen por separado.</p>
+<h3 id="las-tablas-charts">Las tablas (charts)<a class="headerlink" href="#las-tablas-charts" title="Permanent link">&para;</a></h3>
+<p>El juego viene con <strong>cartas de ayuda</strong> que contienen las tablas clave:</p>
+<ul>
+<li><strong>Tabla de Fuego de Infantería</strong> (el cuadro central del combate).</li>
+<li><strong>Tabla de chequeo de moral.</strong></li>
+<li><strong>Tabla de impacto / penetración</strong> para cañones y carros (en los módulos).</li>
+<li><strong>Costes de movimiento por terreno</strong> y modificadores varios.</li>
+</ul>
+<blockquote>
+<p>En esta guía explico <strong>cómo se usan</strong> estas tablas y qué pasos sigues, pero <strong>no
+reproduzco sus valores</strong>: para los números exactos usa tus cartas del juego.</p>
+</blockquote>
+<hr />
+<h2 id="como-se-lee-una-ficha-de-infanteria">Cómo se lee una ficha de infantería<a class="headerlink" href="#como-se-lee-una-ficha-de-infanteria" title="Permanent link">&para;</a></h2>
+<p>Una ficha de pelotón muestra <strong>tres números</strong>, normalmente en este orden:</p>
+<div class="highlight"><pre><span></span><code>   Potencia de fuego  –  Alcance  –  Moral
+        (FP)              (range)     (morale)
+</code></pre></div>
+<p>Por ejemplo, un pelotón podría ser un <strong>"4-6-7"</strong>:</p>
+<ul>
+<li><strong>4 = Potencia de fuego (Firepower).</strong> Cuánto "pega" al disparar. Es el factor que
+  llevas a la Tabla de Fuego.</li>
+<li><strong>6 = Alcance (Range).</strong> A cuántos hexes puede disparar a plena potencia. Más allá de
+  ese alcance, normalmente dispara con penalización (o no puede).</li>
+<li><strong>7 = Moral.</strong> Su resistencia psicológica. Cuanto más alto, mejor aguanta el fuego
+  enemigo sin romperse. Es el número clave en los <strong>chequeos de moral</strong>.</li>
+</ul>
+<p>Las distintas naciones y tipos de tropa tienen perfiles distintos. A grandes rasgos, en el
+sistema clásico:</p>
+<ul>
+<li>Las tropas <strong>alemanas de élite</strong> suelen tener buena potencia y buena moral.</li>
+<li>Las <strong>soviéticas</strong> a menudo van en grandes números, con potencia decente pero moral más
+  variable (y reglas propias de mando).</li>
+<li>Las <strong>estadounidenses</strong> tienen buena potencia de fuego sostenido.</li>
+</ul>
+<blockquote>
+<p>Los valores exactos de cada ficha vienen impresos en las propias fichas; no los
+memorices, léelos sobre la mesa.</p>
+</blockquote>
+<p>Un detalle importante: muchas fichas tienen <strong>dos caras</strong>. La cara normal y una cara
+<strong>reducida o "rota"</strong> que se usa cuando la unidad ha sufrido un revés (ver
+<a href="../05-moral-y-liderazgo/">Moral y liderazgo</a>).</p>
+<hr />
+<h2 id="como-se-lee-un-lider">Cómo se lee un líder<a class="headerlink" href="#como-se-lee-un-lider" title="Permanent link">&para;</a></h2>
+<p>Un líder se describe con dos números, por ejemplo <strong>"9-1"</strong>:</p>
+<ul>
+<li>El <strong>primer número (9)</strong> es su <strong>moral</strong> (igual que en los pelotones).</li>
+<li>El <strong>segundo número, con signo (–1)</strong> es su <strong>modificador de liderazgo</strong>: una
+  bonificación que aplica a las acciones de las unidades <strong>apiladas con él o cercanas</strong>.
+  Un líder "−1" resta 1 a las tiradas que conviene que sean bajas (mejora el fuego, ayuda a
+  reagrupar tropas rotas, etc.). Un "−2" es un líder excepcional.</li>
+</ul>
+<p>Los líderes son <strong>decisivos</strong>: un buen líder convierte a un pelotón mediocre en una
+amenaza, y es quien recompone a las tropas que han huido. Protégelos.</p>
+<p>Más detalle en <a href="../05-moral-y-liderazgo/">05 – Moral y liderazgo</a>.</p>
+<hr />
+<h2 id="conceptos-que-conviene-tener-claros-desde-el-principio">Conceptos que conviene tener claros desde el principio<a class="headerlink" href="#conceptos-que-conviene-tener-claros-desde-el-principio" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Apilamiento (stacking):</strong> cuántas unidades caben en un mismo hex. Hay un límite (varios
+  pelotones + un líder, a grandes rasgos). Amontonar tropas concentra potencia pero también
+  las hace <strong>vulnerables</strong>: un solo buen disparo puede afectar a todo el hex.</li>
+<li><strong>Línea de visión (LOS, <em>Line of Sight</em>):</strong> para disparar necesitas "ver" al objetivo en
+  línea recta entre los centros de los dos hexes, sin que un obstáculo (colina, bosque,
+  edificio) la corte. Es uno de los conceptos que más decisiones genera.</li>
+<li><strong>Unidad "buena orden" vs. "rota":</strong> una unidad rota (<em>broken</em>) no puede disparar ni
+  avanzar hacia el enemigo; solo huir y tratar de reagruparse.</li>
+<li><strong>Fuego de oportunidad / defensivo:</strong> el bando que <em>no</em> tiene el turno también dispara,
+  reaccionando al movimiento enemigo. Esto hace que cruzar terreno abierto sea peligroso.</li>
+</ul>
+<p>Con esto ya tienes el vocabulario. Vamos al corazón del juego: <strong>la secuencia del turno</strong>.</p>
+<hr />
+<p><a href="../">⟵ Volver al índice</a> · <a href="../02-secuencia-de-juego/">Siguiente: Secuencia de juego ⟶</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+          
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Anterior: Inicio">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Inicio
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../02-secuencia-de-juego/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: 02 · Secuencia de juego">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                02 · Secuencia de juego
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
