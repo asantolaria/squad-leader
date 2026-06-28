@@ -90,6 +90,8 @@ El juego viene con **cartas de ayuda** que contienen las tablas clave:
 
 ## Cómo se lee una ficha de infantería
 
+![Diagrama: cómo leer una ficha de pelotón y una de líder](assets/contador.svg)
+
 Una ficha de pelotón muestra **tres números**, normalmente en este orden:
 
 ```

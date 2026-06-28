@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="600" height="440" rx="12" fill="#f4ecd8" stroke="#c8b88a" stroke-width="2"/>
+  <text x="300" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#3a3326">Blindaje por lado: dónde golpear</text>
+
+  <!-- tank (top-down), front = up -->
+  <g>
+    <!-- gun -->
+    <rect x="293" y="78" width="14" height="70" fill="#4a4f3f"/>
+    <!-- hull -->
+    <rect x="245" y="148" width="110" height="190" rx="6" fill="#6b705c" stroke="#2b2b2b" stroke-width="2"/>
+    <!-- tracks -->
+    <rect x="227" y="148" width="18" height="190" rx="4" fill="#3a3f33"/>
+    <rect x="355" y="148" width="18" height="190" rx="4" fill="#3a3f33"/>
+    <!-- turret -->
+    <circle cx="300" cy="205" r="46" fill="#5a5f4d" stroke="#2b2b2b" stroke-width="2"/>
+    <!-- armor thickness bars -->
+    <rect x="245" y="146" width="110" height="9" fill="#bf4e30"/>        <!-- front: thick -->
+    <rect x="245" y="333" width="110" height="4" fill="#9aa07f"/>        <!-- rear: thin -->
+    <rect x="245" y="155" width="4" height="178" fill="#cdb06a"/>        <!-- left side: thin -->
+    <rect x="351" y="155" width="4" height="178" fill="#cdb06a"/>        <!-- right side: thin -->
+  </g>
+
+  <!-- labels -->
+  <g font-size="15" fill="#3a3326">
+    <text x="300" y="70" text-anchor="middle" font-weight="bold" fill="#bf4e30">FRENTE — blindaje fuerte</text>
+    <text x="300" y="372" text-anchor="middle" font-weight="bold">TRASERA — muy débil</text>
+    <text x="150" y="240" text-anchor="middle">COSTADO</text>
+    <text x="150" y="258" text-anchor="middle">(débil)</text>
+    <text x="450" y="240" text-anchor="middle">COSTADO</text>
+    <text x="450" y="258" text-anchor="middle">(débil)</text>
+  </g>
+
+  <!-- front shot: bounces -->
+  <g>
+    <line x1="300" y1="105" x2="300" y2="138" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arK)"/>
+    <path d="M 300 138 q 22 -6 30 -26" fill="none" stroke="#2b2b2b" stroke-width="2.5" stroke-dasharray="5 4" marker-end="url(#arK)"/>
+    <text x="345" y="118" font-size="14" fill="#2b2b2b" font-weight="bold">rebota</text>
+  </g>
+
+  <!-- side shot: penetrates -->
+  <g>
+    <line x1="170" y1="290" x2="240" y2="290" stroke="#bf4e30" stroke-width="4" marker-end="url(#arO)"/>
+    <text x="120" y="300" font-size="14" fill="#bf4e30" font-weight="bold">¡penetra!</text>
+  </g>
+
+  <text x="300" y="420" text-anchor="middle" font-size="14" font-style="italic" fill="#3a3326">Maniobra para disparar al costado o la trasera, parado y de cerca.</text>
+
+  <defs>
+    <marker id="arK" markerWidth="9" markerHeight="9" refX="5" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2b2b2b"/></marker>
+    <marker id="arO" markerWidth="9" markerHeight="9" refX="5" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#bf4e30"/></marker>
+  </defs>
+</svg>

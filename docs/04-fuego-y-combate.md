@@ -18,6 +18,8 @@ huecos y dejarlo incapaz de reaccionar, para luego rematar con maniobra y cuerpo
 
 ## Procedimiento de un disparo de infantería
 
+![Diagrama del procedimiento de fuego en 6 pasos](assets/fuego.svg)
+
 Sigue siempre estos pasos. (Los **números exactos** —columnas, modificadores— están en tu
 Tabla de Fuego y tu tabla de modificadores; aquí va el método.)
 

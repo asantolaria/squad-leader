@@ -61,6 +61,8 @@ Para disparar un cañón antitanque o de carro contra un vehículo:
 
 ## Paso 2 — Penetración (To Kill / penetración del blindaje)
 
+![Diagrama de blindaje por lado: el frente resiste, el costado y la trasera son vulnerables](assets/blindaje.svg)
+
 Si impactas, comparas la **capacidad de penetración del proyectil** a esa distancia con el
 **factor de blindaje del lado golpeado**:
 

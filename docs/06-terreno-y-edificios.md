@@ -40,6 +40,8 @@ quedarte en lo protector**.
 
 ## Línea de visión (LOS) en detalle
 
+![Diagrama de línea de visión: el bosque corta la LOS entre el tirador y el objetivo](assets/linea-de-vision.svg)
+
 La **línea de visión** decide quién puede disparar a quién. Es, junto con la secuencia de
 fases, lo que más decisiones genera.
 

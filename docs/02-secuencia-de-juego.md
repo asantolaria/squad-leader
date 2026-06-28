@@ -23,6 +23,8 @@ fases en las que dispara reaccionando.
 
 ## Las fases de un turno de jugador
 
+![Diagrama de la secuencia del turno: las 8 fases, con el bando que actúa en cada una](assets/turno.svg)
+
 En el sistema clásico, el turno de un jugador sigue este orden (regla 4.0). Apréndetelo de
 memoria:
 

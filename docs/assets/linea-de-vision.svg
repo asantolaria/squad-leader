@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 290" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="460" height="290" rx="12" fill="#f4ecd8" stroke="#c8b88a" stroke-width="2"/>
+  <text x="230" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#3a3326">Línea de visión (LOS)</text>
+
+  <defs>
+    <polygon id="hx" points="34.64,20 0,40 -34.64,20 -34.64,-20 0,-40 34.64,-20" stroke="#2b2b2b" stroke-width="2"/>
+    <marker id="arR" markerWidth="9" markerHeight="9" refX="5" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#bf4e30"/></marker>
+  </defs>
+
+  <!-- hexes -->
+  <use href="#hx" x="80"  y="135" fill="#e8dca8"/>
+  <use href="#hx" x="149" y="135" fill="#e8dca8"/>
+  <use href="#hx" x="219" y="135" fill="#6f8f5a"/>
+  <use href="#hx" x="288" y="135" fill="#e8dca8"/>
+
+  <!-- woods marker (trees) -->
+  <g fill="#33502a">
+    <circle cx="208" cy="130" r="7"/><circle cx="224" cy="124" r="8"/><circle cx="230" cy="142" r="7"/><circle cx="212" cy="146" r="6"/>
+  </g>
+
+  <!-- shooter counter -->
+  <rect x="63" y="118" width="34" height="34" rx="4" fill="#6b705c" stroke="#2b2b2b" stroke-width="2"/>
+  <text x="80" y="141" text-anchor="middle" font-size="13" fill="#f4ecd8" font-weight="bold">A</text>
+  <!-- target counter -->
+  <rect x="271" y="118" width="34" height="34" rx="4" fill="#7a5230" stroke="#2b2b2b" stroke-width="2"/>
+  <text x="288" y="141" text-anchor="middle" font-size="13" fill="#f4ecd8" font-weight="bold">B</text>
+
+  <!-- LOS line -->
+  <line x1="80" y1="135" x2="288" y2="135" stroke="#bf4e30" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arR)"/>
+  <!-- block X -->
+  <g stroke="#bf4e30" stroke-width="4">
+    <line x1="208" y1="98" x2="230" y2="120"/>
+    <line x1="230" y1="98" x2="208" y2="120"/>
+  </g>
+
+  <!-- labels -->
+  <text x="80"  y="195" text-anchor="middle" font-size="12" fill="#3a3326">Tirador</text>
+  <text x="149" y="195" text-anchor="middle" font-size="12" fill="#3a3326">claro</text>
+  <text x="219" y="195" text-anchor="middle" font-size="12" fill="#3a3326" font-weight="bold">bosque</text>
+  <text x="288" y="195" text-anchor="middle" font-size="12" fill="#3a3326">Objetivo</text>
+
+  <text x="230" y="235" text-anchor="middle" font-size="14" fill="#bf4e30" font-weight="bold">El bosque bloquea la LOS → A no puede disparar a B</text>
+  <text x="230" y="262" text-anchor="middle" font-size="13" font-style="italic" fill="#3a3326">El terreno claro no bloquea; bosque y edificios sí.</text>
+</svg>
