@@ -52,6 +52,9 @@ te da además una visión de conjunto para que entiendas el "porqué" de cada me
 | 09 | [Reglas avanzadas y módulos](09-modulos-y-reglas-avanzadas.md) | Cross of Iron, Crescendo of Doom, GI: Anvil of Victory |
 | 10 | [Referencia rápida](10-referencia-rapida.md) | Resumen de secuencia y recordatorios para la mesa |
 | 11 | [Glosario y siglas](11-glosario.md) | Términos y abreviaturas habituales |
+| 12 | [Jugar en solitario](12-jugar-en-solitario.md) | Cómo jugar solo: bando automático, veteranía, consejos |
+| 13 | [Escenario de práctica](13-escenario-de-practica.md) | «El cruce del trigal»: primera partida comentada |
+| 14 | [Recursos y comunidad](14-recursos-y-comunidad.md) | Enlaces a AARs, foros y dónde conseguir el juego |
 
 ---
 
