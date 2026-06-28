@@ -1,0 +1,15 @@
+# Sitio generado por MkDocs (regenerable con `mkdocs build` / `mkdocs gh-deploy`)
+site/
+
+# Entorno virtual de Python
+.venv/
+venv/
+
+# Cachés
+__pycache__/
+.cache/
+*.pyc
+
+# Sistema
+.DS_Store
+Thumbs.db

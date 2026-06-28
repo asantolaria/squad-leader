@@ -1,0 +1,61 @@
+site_name: Guía de Squad Leader
+site_description: Guía didáctica en castellano para aprender a jugar a Squad Leader (Avalon Hill, 1977) y sus módulos.
+site_author: Alex Santolaria
+site_url: https://asantolaria.github.io/squad-leader/
+
+theme:
+  name: material
+  language: es
+  icon:
+    logo: material/chess-rook
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: brown
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: brown
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      lang: es
+
+nav:
+  - Inicio: index.md
+  - 01 · Introducción y componentes: 01-introduccion-componentes.md
+  - 02 · Secuencia de juego: 02-secuencia-de-juego.md
+  - 03 · Movimiento: 03-movimiento.md
+  - 04 · Fuego y combate: 04-fuego-y-combate.md
+  - 05 · Moral y liderazgo: 05-moral-y-liderazgo.md
+  - 06 · Terreno y edificios: 06-terreno-y-edificios.md
+  - 07 · Blindados y vehículos: 07-blindados-y-vehiculos.md
+  - 08 · Cañones y armas de apoyo: 08-canones-y-armas-de-apoyo.md
+  - 09 · Módulos y reglas avanzadas: 09-modulos-y-reglas-avanzadas.md
+  - 10 · Referencia rápida: 10-referencia-rapida.md
+  - 11 · Glosario y siglas: 11-glosario.md
