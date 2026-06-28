@@ -389,6 +389,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Puntos de movimiento (MP)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reglas-finas-de-coste-las-que-mas-se-olvidan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reglas finas de coste (las que más se olvidan)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -403,10 +420,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mover-con-armas-y-lideres" class="md-nav__link">
+  <a href="#transporte-armas-lideres-canones-y-vehiculos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Mover con armas y líderes
+        Transporte: armas, líderes, cañones y vehículos
       
     </span>
   </a>
@@ -705,6 +722,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Puntos de movimiento (MP)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reglas-finas-de-coste-las-que-mas-se-olvidan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reglas finas de coste (las que más se olvidan)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -719,10 +753,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mover-con-armas-y-lideres" class="md-nav__link">
+  <a href="#transporte-armas-lideres-canones-y-vehiculos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Mover con armas y líderes
+        Transporte: armas, líderes, cañones y vehículos
       
     </span>
   </a>
@@ -787,10 +821,11 @@
 suele tener una cantidad modesta; los vehículos, bastante más. Mover consiste en <strong>gastar
 MP para entrar en hexes</strong>, pagando el coste del terreno del hex al que entras.</p>
 <p>Regla de oro: <strong>el coste se paga al ENTRAR en un hex</strong>, no al salir. Y normalmente cuenta el
-terreno del hex de destino (más, a veces, costes extra por cruzar ciertos bordes de hex,
+terreno del hex de destino (más, a veces, costes extra por cruzar ciertos <strong>bordes</strong> de hex,
 como muros o setos).</p>
-<p>Ejemplos del <em>tipo</em> de coste (los valores exactos están en tu tabla de costes de
-movimiento):</p>
+<p><img alt="Diagrama de costes de movimiento al cruzar distintos terrenos" src="../assets/movimiento.svg" /></p>
+<p>Ejemplos del <em>tipo</em> de coste (los <strong>valores exactos en MP</strong> están en tu tabla de costes de
+movimiento, regla 5.5):</p>
 <table>
 <thead>
 <tr>
@@ -801,14 +836,14 @@ movimiento):</p>
 </thead>
 <tbody>
 <tr>
-<td>Terreno claro</td>
-<td>Barato (1)</td>
+<td>Terreno claro / trigal / cráter</td>
+<td>Barato</td>
 <td>Rápido pero <strong>expuesto</strong> al fuego</td>
 </tr>
 <tr>
-<td>Trigal / huerto</td>
-<td>Algo más</td>
-<td>Da algo de ocultación</td>
+<td>Carretera</td>
+<td>Más barato aún</td>
+<td>Veloz, pero te deja al descubierto</td>
 </tr>
 <tr>
 <td>Bosque</td>
@@ -816,26 +851,56 @@ movimiento):</p>
 <td>Lento pero <strong>protege</strong> mucho</td>
 </tr>
 <tr>
-<td>Edificio</td>
+<td>Entrar en un edificio</td>
 <td>Caro</td>
 <td>Excelente cobertura; clave en combate urbano</td>
 </tr>
 <tr>
-<td>Subir pendiente</td>
-<td>Coste extra</td>
-<td>Las colinas cuestan más por nivel</td>
+<td>Moverse dentro de un edificio / escaleras</td>
+<td>Caro por hex/nivel</td>
+<td>El interior también cuesta</td>
 </tr>
 <tr>
-<td>Cruzar muro/seto</td>
-<td>Coste extra de borde</td>
+<td>Subir a una elevación mayor</td>
+<td><strong>Coste doble</strong></td>
+<td>Las colinas se pagan caras</td>
+</tr>
+<tr>
+<td>Cruzar muro / seto</td>
+<td>Coste extra <strong>de borde</strong></td>
 <td>Penaliza el cruce, no el hex</td>
+</tr>
+<tr>
+<td>Entrar en hex con humo</td>
+<td>Coste extra</td>
+<td>Cruzar humo te frena</td>
+</tr>
+<tr>
+<td>Barranco / edificio de piedra (vehículos)</td>
+<td>Intransitable</td>
+<td>No se puede entrar</td>
 </tr>
 </tbody>
 </table>
 <blockquote>
 <p>Una unidad <strong>siempre puede mover al menos un hex</strong> aunque no le lleguen los MP para el
-coste, salvo que el terreno sea directamente intransitable.</p>
+coste, salvo que el terreno sea directamente <strong>intransitable</strong>.</p>
 </blockquote>
+<h3 id="reglas-finas-de-coste-las-que-mas-se-olvidan">Reglas finas de coste (las que más se olvidan)<a class="headerlink" href="#reglas-finas-de-coste-las-que-mas-se-olvidan" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Elevación:</strong> entrar en un hex que está <strong>un nivel más arriba</strong> cuesta el <strong>doble</strong> del
+  coste normal de ese terreno. Bajar no penaliza igual. Por eso atacar cuesta arriba es
+  lento <em>y</em> expuesto.</li>
+<li><strong>Muros y setos:</strong> no son el terreno del hex, son un <strong>borde</strong>. Pagas el coste del hex de
+  destino <strong>más</strong> un extra por cruzar ese borde. Además, el muro/seto da <strong>cobertura
+  direccional</strong> (ver <a href="../06-terreno-y-edificios/">06 – Terreno</a>).</li>
+<li><strong>Edificios:</strong> entrar cuesta, <strong>y moverse de un hex a otro dentro</strong> del edificio (o subir
+  de planta) también. Tomar un edificio grande lleva su tiempo.</li>
+<li><strong>Carreteras:</strong> moverte <strong>a lo largo</strong> de una carretera es muy barato — ideal para
+  vehículos— pero te deja en terreno descubierto, a tiro.</li>
+<li><strong>Humo:</strong> entrar en un hex con humo cuesta un extra; aun así suele compensar por la
+  cobertura que da al cruzar.</li>
+</ul>
 <hr />
 <h2 id="mover-una-unidad-de-cada-vez">Mover una unidad de cada vez<a class="headerlink" href="#mover-una-unidad-de-cada-vez" title="Permanent link">&para;</a></h2>
 <p>Esto ya se dijo en la <a href="../02-secuencia-de-juego/">secuencia</a>, pero es tan importante que se
@@ -844,35 +909,57 @@ y solo entonces pasas a la siguiente. Nunca muevas "un poco con cada una a la ve
 <p>¿Por qué? Porque el defensor reacciona <strong>durante</strong> ese recorrido (fuego defensivo / de
 oportunidad). El orden y la ruta que elijas determinan a qué disparos te expones.</p>
 <hr />
-<h2 id="mover-con-armas-y-lideres">Mover con armas y líderes<a class="headerlink" href="#mover-con-armas-y-lideres" title="Permanent link">&para;</a></h2>
+<h2 id="transporte-armas-lideres-canones-y-vehiculos">Transporte: armas, líderes, cañones y vehículos<a class="headerlink" href="#transporte-armas-lideres-canones-y-vehiculos" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Armas de apoyo (SW):</strong> una ametralladora, mortero, etc., no se mueve sola: la
-  <strong>transporta</strong> un pelotón o un líder. Cargar con un arma pesada suele <strong>reducir</strong> los MP
-  disponibles (te frena). Las armas muy pesadas requieren varias unidades o casi no se
-  pueden mover bajo fuego.</li>
-<li><strong>Líderes:</strong> se mueven muy ágilmente y pueden <strong>arrastrar/dirigir</strong> a las unidades
-  apiladas con ellos. Un líder al frente de una pila ayuda a esa pila también al moverse.</li>
+  <strong>transporta</strong> un pelotón o un líder. Cada arma tiene un <strong>coste de transporte (puntos de
+  acarreo, PP)</strong> que <strong>reduce</strong> los MP de quien la lleva. Una LMG apenas frena; una HMG es
+  casi un emplazamiento fijo.</li>
+<li><strong>Líderes:</strong> se mueven muy ágilmente y pueden <strong>dirigir</strong> a las unidades apiladas con
+  ellos. Un líder al frente de una pila la ayuda también al moverse. Hay límites a cuántas
+  armas pesadas puede arrastrar un grupo (p. ej. dos líderes pueden cargar entre ambos una
+  MG media/pesada).</li>
 <li><strong>Cañones (Guns):</strong> mover un cañón a brazo es lentísimo; normalmente se quedan donde se
-  despliegan o se remolcan con vehículo (módulos).</li>
-</ul>
-<hr />
-<h2 id="apilamiento-stacking">Apilamiento (stacking)<a class="headerlink" href="#apilamiento-stacking" title="Permanent link">&para;</a></h2>
-<p>El <strong>apilamiento</strong> es cuántas unidades caben en un hex. Hay un <strong>límite</strong> (a grandes rasgos,
-unos pocos pelotones más un líder; los valores exactos, en tu reglamento).</p>
-<p>Ventajas de apilar:</p>
-<ul>
-<li><strong>Concentras potencia de fuego</strong> desde el mismo hex.</li>
-<li>Un <strong>líder</strong> beneficia a todos los que están con él.</li>
-</ul>
-<p>Inconvenientes (muy importantes):</p>
-<ul>
-<li>Un solo disparo enemigo bueno resuelve fuego <strong>contra todo el hex</strong>: puedes perder o
-  romper varias unidades a la vez.</li>
-<li>El terreno claro + apilamiento = un blanco regalado.</li>
+  despliegan o se <strong>remolcan</strong> con vehículo (módulos).</li>
+<li><strong>Vehículos como transporte:</strong> los semiorugas y camiones <strong>cargan infantería</strong>. Subir y
+  bajar (cargar/descargar pasajeros) <strong>cuesta MP</strong>; descargar sobre una <strong>carretera</strong> sale
+  más barato. Cuidado: la infantería <strong>dentro</strong> de un transporte sin blindar es muy
+  vulnerable si el vehículo recibe fuego.</li>
 </ul>
 <blockquote>
-<p><strong>Consejo:</strong> apila en <strong>buena cobertura</strong> (bosque, edificio) cuando quieras concentrar
-fuego; <strong>dispérsate</strong> cuando cruces terreno abierto.</p>
+<p>Detalle clave de los módulos: descargar pasajeros y <strong>luego</strong> querer que actúen suele
+dejar poco margen ese turno. Planifica el "taxi" para soltar la tropa <strong>a cubierto</strong>.</p>
+</blockquote>
+<hr />
+<h2 id="apilamiento-stacking">Apilamiento (stacking)<a class="headerlink" href="#apilamiento-stacking" title="Permanent link">&para;</a></h2>
+<p><img alt="Diagrama de apilamiento: una pila en un hex y el riesgo de fuego concentrado" src="../assets/apilamiento.svg" /></p>
+<p>El <strong>apilamiento</strong> es cuántas unidades caben en un hex. Hay <strong>límites</strong> (regla 6.1). A
+grandes rasgos, en el sistema clásico, por hex:</p>
+<ul>
+<li><strong>Infantería:</strong> unas pocas unidades (del orden de varias escuadras como tope), <strong>más un
+  líder</strong>.</li>
+<li><strong>Armas de apoyo:</strong> limitadas por un total de <strong>puntos de acarreo (PP)</strong>.</li>
+<li><strong>Vehículos:</strong> normalmente <strong>uno</strong> por hex.</li>
+<li><strong>Restos / marcadores:</strong> sin límite.</li>
+</ul>
+<p>Y hay <strong>excepciones</strong> donde el límite cambia (búnkeres, cuerpo a cuerpo, atrincheramientos,
+2º nivel de edificios, movimiento por alcantarillas…). Consulta tu carta 6.1 para los
+números exactos y la capacidad de transporte de cada vehículo.</p>
+<p><strong>Ventajas de apilar:</strong></p>
+<ul>
+<li><strong>Concentras potencia de fuego</strong> desde el mismo hex (combinas FP: mucho más letal).</li>
+<li>Un <strong>líder</strong> beneficia a <strong>todas</strong> las unidades de su hex (fuego, moral, reagrupamiento).</li>
+</ul>
+<p><strong>Inconvenientes (muy importantes):</strong></p>
+<ul>
+<li>Un solo disparo enemigo bueno se resuelve <strong>contra todo el hex</strong>: puedes romper o perder
+  <strong>varias</strong> unidades a la vez.</li>
+<li>Apilamiento + terreno claro = un blanco regalado.</li>
+</ul>
+<blockquote>
+<p><strong>Consejo de oro:</strong> <strong>apila en buena cobertura</strong> (bosque, edificio) cuando quieras
+concentrar fuego y aprovechar un líder; <strong>dispérsate</strong> cuando cruces terreno abierto, para
+que un disparo no se lleve a todos por delante.</p>
 </blockquote>
 <hr />
 <h2 id="tipos-de-movimiento-especiales">Tipos de movimiento especiales<a class="headerlink" href="#tipos-de-movimiento-especiales" title="Permanent link">&para;</a></h2>
@@ -880,11 +967,10 @@ fuego; <strong>dispérsate</strong> cuando cruces terreno abierto.</p>
 <li><strong>Avance (fase 7):</strong> un solo hex, <strong>sin provocar fuego defensivo</strong>. Es el "último salto"
   para meterte en cobertura o entrar en contacto con el enemigo. No lo confundas con la fase
   de movimiento normal.</li>
-<li><strong>Arrastrarse / asalto (assault move):</strong> en algunas situaciones puedes moverte despacio
-  para mantenerte más protegido o para poder disparar mejor después; tiene reglas propias en
-  los módulos.</li>
-<li><strong>Doble tiempo / a la carrera:</strong> moverte gastando más para llegar lejos, a costa de ir más
-  expuesto. (Detalles según edición/módulo.)</li>
+<li><strong>Movimiento de asalto / arrastrarse:</strong> moverte despacio (menos hexes) para mantenerte más
+  protegido o poder disparar mejor después; reglas propias en los módulos.</li>
+<li><strong>Doble tiempo / a la carrera:</strong> gastar más para llegar lejos, a costa de ir más expuesto.
+  (Detalles según edición/módulo.)</li>
 </ul>
 <hr />
 <h2 id="como-pensar-el-movimiento-mentalidad">Cómo pensar el movimiento (mentalidad)<a class="headerlink" href="#como-pensar-el-movimiento-mentalidad" title="Permanent link">&para;</a></h2>
@@ -897,6 +983,8 @@ fuego; <strong>dispérsate</strong> cuando cruces terreno abierto.</p>
 <li><strong>Guarda el último hex para la fase de avance</strong>, que no provoca fuego.</li>
 <li><strong>Humo (smoke):</strong> si tienes morteros o capacidad de lanzar humo, ciega la línea de visión
    enemiga antes de cruzar (ver <a href="../08-canones-y-armas-de-apoyo/">08 – Cañones y armas de apoyo</a>).</li>
+<li><strong>No subas de frente una colina</strong> si puedes rodearla: el coste doble por elevación y la
+   exposición te machacan.</li>
 </ol>
 <hr />
 <p><a href="../02-secuencia-de-juego/">⟵ Secuencia</a> · <a href="../">Índice</a> · <a href="../04-fuego-y-combate/">Siguiente: Fuego y combate ⟶</a></p>
