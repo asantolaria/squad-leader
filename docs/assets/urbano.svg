@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510 330" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="510" height="330" rx="12" fill="#f4ecd8" stroke="#c8b88a" stroke-width="2"/>
+  <text x="255" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#3a3326">Combate urbano: cómo tomar un edificio</text>
+
+  <!-- street -->
+  <rect x="170" y="120" width="170" height="140" fill="#d9cba0"/>
+  <line x1="255" y1="120" x2="255" y2="260" stroke="#b9a878" stroke-width="3" stroke-dasharray="10 8"/>
+
+  <!-- left building (attacker) -->
+  <rect x="40" y="120" width="130" height="140" fill="#7a5230" stroke="#2b2b2b" stroke-width="2"/>
+  <polygon points="40,120 105,92 170,120" fill="#5a3c22" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="70" y="155" width="22" height="26" fill="#2b2b2b" opacity="0.5"/>
+  <rect x="118" y="155" width="22" height="26" fill="#2b2b2b" opacity="0.5"/>
+  <rect x="78" y="190" width="34" height="34" rx="4" fill="#6b705c" stroke="#f4ecd8" stroke-width="2"/>
+  <text x="95" y="213" text-anchor="middle" font-size="13" fill="#f4ecd8" font-weight="bold">A</text>
+
+  <!-- right building (defender) -->
+  <rect x="340" y="120" width="130" height="140" fill="#8a6a45" stroke="#2b2b2b" stroke-width="2"/>
+  <polygon points="340,120 405,92 470,120" fill="#5a3c22" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="370" y="155" width="22" height="26" fill="#2b2b2b" opacity="0.5"/>
+  <rect x="418" y="155" width="22" height="26" fill="#2b2b2b" opacity="0.5"/>
+  <rect x="388" y="190" width="34" height="34" rx="4" fill="#7a5230" stroke="#f4ecd8" stroke-width="2"/>
+  <text x="405" y="213" text-anchor="middle" font-size="13" fill="#f4ecd8" font-weight="bold">D</text>
+
+  <defs>
+    <marker id="arU1" markerWidth="9" markerHeight="9" refX="5" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#bf4e30"/></marker>
+    <marker id="arU2" markerWidth="9" markerHeight="9" refX="5" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#3a6b3a"/></marker>
+  </defs>
+
+  <!-- step 1: fire -->
+  <line x1="118" y1="150" x2="384" y2="150" stroke="#bf4e30" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arU1)"/>
+  <text x="250" y="143" text-anchor="middle" font-size="12" fill="#bf4e30" font-weight="bold">1 · Fija al defensor con fuego</text>
+
+  <!-- step 2: cross street -->
+  <path d="M 118 240 q 130 40 270 0" fill="none" stroke="#3a6b3a" stroke-width="3" marker-end="url(#arU2)"/>
+  <text x="255" y="298" text-anchor="middle" font-size="12" fill="#3a6b3a" font-weight="bold">2 · Cruza en fase de avance o tras humo (sin fuego)</text>
+
+  <!-- step 3 -->
+  <text x="405" y="248" text-anchor="middle" font-size="11" fill="#f4ecd8" font-weight="bold">3 · ¡Asalto!</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 300" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="470" height="300" rx="12" fill="#f4ecd8" stroke="#c8b88a" stroke-width="2"/>
+  <text x="235" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#3a3326">Coste de movimiento por terreno</text>
+
+  <defs>
+    <polygon id="hxm" points="32.9,19 0,38 -32.9,19 -32.9,-19 0,-38 32.9,-19" stroke="#2b2b2b" stroke-width="2"/>
+    <marker id="arM" markerWidth="9" markerHeight="9" refX="5" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#bf4e30"/></marker>
+  </defs>
+
+  <use href="#hxm" x="70"  y="130" fill="#e8dca8"/>
+  <use href="#hxm" x="136" y="130" fill="#e8dca8"/>
+  <use href="#hxm" x="202" y="130" fill="#6f8f5a"/>
+  <use href="#hxm" x="268" y="130" fill="#e8dca8"/>
+  <use href="#hxm" x="334" y="130" fill="#b08968"/>
+
+  <!-- woods trees -->
+  <g fill="#33502a"><circle cx="192" cy="126" r="6"/><circle cx="208" cy="120" r="7"/><circle cx="212" cy="136" r="6"/></g>
+  <!-- building -->
+  <rect x="316" y="116" width="36" height="28" fill="#7a5230" stroke="#2b2b2b"/>
+  <polygon points="316,116 334,102 352,116" fill="#5a3c22" stroke="#2b2b2b"/>
+
+  <!-- unit at start -->
+  <rect x="54" y="114" width="32" height="32" rx="4" fill="#6b705c" stroke="#2b2b2b" stroke-width="2"/>
+  <text x="70" y="136" text-anchor="middle" font-size="12" fill="#f4ecd8" font-weight="bold">A</text>
+
+  <!-- path -->
+  <path d="M 86 122 L 334 122" fill="none" stroke="#bf4e30" stroke-width="2.5" stroke-dasharray="5 4" marker-end="url(#arM)"/>
+
+  <!-- cost labels -->
+  <g font-size="13" fill="#3a3326" text-anchor="middle">
+    <text x="136" y="182">claro</text><text x="136" y="198" fill="#bf4e30" font-weight="bold">+1</text>
+    <text x="202" y="182">bosque</text><text x="202" y="198" fill="#bf4e30" font-weight="bold">+2</text>
+    <text x="268" y="182">claro</text><text x="268" y="198" fill="#bf4e30" font-weight="bold">+1</text>
+    <text x="334" y="182">edificio</text><text x="334" y="198" fill="#bf4e30" font-weight="bold">+2</text>
+  </g>
+
+  <text x="235" y="240" text-anchor="middle" font-size="13" fill="#3a3326">El coste se paga al <tspan font-weight="bold">entrar</tspan> en cada hex.</text>
+  <text x="235" y="262" text-anchor="middle" font-size="13" fill="#3a3326">Subir a un nivel mayor cuesta el <tspan font-weight="bold">doble</tspan>; cruzar muro/seto, un <tspan font-weight="bold">extra de borde</tspan>.</text>
+  <text x="235" y="284" text-anchor="middle" font-size="12" font-style="italic" fill="#7a5230">Valores exactos (MP) en tu carta 5.5.</text>
+</svg>

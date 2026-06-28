@@ -107,9 +107,13 @@ controla el pueblo.
 > cruza la calle con humo o en la fase de avance (que no provoca fuego), y **asáltalos cuerpo
 > a cuerpo**. Nunca cruces una calle abierta a la vista en fase de movimiento.
 
+![Diagrama de combate urbano: fijar con fuego, cruzar la calle, asaltar](assets/urbano.svg)
+
 ---
 
 ## Humo (smoke) y la línea de visión
+
+![Diagrama de humo cubriendo un avance por terreno abierto](assets/humo.svg)
 
 El **humo** (de morteros, granadas de humo, vehículos en módulos) es la herramienta para
 **negar la LOS** temporalmente:

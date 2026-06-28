@@ -44,6 +44,8 @@ Vamos paso a paso.
 
 ## Paso 1 — Impacto (To Hit)
 
+![Diagrama del combate de blindados: impacto, penetración y daño](assets/impacto.svg)
+
 Para disparar un cañón antitanque o de carro contra un vehículo:
 
 1. Comprueba la **línea de visión** (igual que la infantería).
