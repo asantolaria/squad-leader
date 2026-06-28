@@ -61,6 +61,28 @@ comprar el juego.
 
 ---
 
+## Créditos de imágenes
+
+Los **diagramas** de la guía son originales (creados para esta web). Las **fotografías
+históricas** son del **Gobierno de EE. UU.** y están en **dominio público** (obras de
+personal militar estadounidense en acto de servicio, sin copyright). Atribución:
+
+- **Desembarco en Omaha, Día D** (cap. 1) — *«Into the Jaws of Death»*, Chief Photographer's
+  Mate Robert F. Sargent, US Coast Guard, 6 jun 1944.
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Into_the_Jaws_of_Death_23-0455M_edit.jpg)
+- **Infantería en Aquisgrán** (cap. 6) — US Army Signal Corps (SC 195638), 15 oct 1944.
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SC_195638_-_Aided_by_the_armored_force,_Yank_infantry_moves_forward_to_engage_the_enemy_in_Aachen,_Germany._15_October,_1944._%2852598831960%29.jpg)
+- **Carro M4 Sherman en Leyte** (cap. 7) — Paul J. Mueller, US Army, 15 ago 1945.
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:M4_Sherman_Tank_of_710th_Tank_Battalion_in_Leyte,_Philippines_1945.jpg)
+- **Cañón AT alemán capturado en Aquisgrán** (cap. 8) — US Army Signal Corps (SC 195600),
+  19 oct 1944.
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SC_195600_-_Crouching_in_the_shelter_of_a_knocked-out_German_47mm_anti-tank_gun_in_Aachen,_Germany,_Pvt._William_Zukerbrow,_Brooklyn,_N.Y.,_draws_a_bead_on_a_Nazi_sniper._19_October,_1944._%2852598394419%29.jpg)
+
+> Estas fotos ilustran el **contexto histórico** de la 2GM; no son imágenes del juego (el arte
+> de *Squad Leader* tiene copyright y no se reproduce aquí).
+
+---
+
 ## Esta guía
 
 - **Web:** <https://asantolaria.github.io/squad-leader/>

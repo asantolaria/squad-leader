@@ -4,6 +4,12 @@
 
 ---
 
+![Infantería estadounidense avanza entre las ruinas de Aquisgrán](assets/fotos/aachen-infanteria.jpg)
+
+*Infantería de EE. UU. avanza apoyada por blindados entre las ruinas de Aquisgrán
+(15 de octubre de 1944): combate urbano puro. Foto: US Army Signal Corps — dominio público
+([Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SC_195638_-_Aided_by_the_armored_force,_Yank_infantry_moves_forward_to_engage_the_enemy_in_Aachen,_Germany._15_October,_1944._%2852598831960%29.jpg)).*
+
 ## El terreno hace tres cosas
 
 Cada tipo de terreno influye en el juego de tres maneras a la vez:

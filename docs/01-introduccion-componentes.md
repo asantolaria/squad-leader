@@ -4,6 +4,12 @@
 
 ---
 
+![Tropas estadounidenses desembarcan en la playa de Omaha el Día D](assets/fotos/omaha.jpg)
+
+*Tropas de la 1.ª División de Infantería de EE. UU. desembarcan en la playa de Omaha, Día D
+(6 de junio de 1944). Foto: Robert F. Sargent, US Coast Guard — dominio público
+([Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Into_the_Jaws_of_Death_23-0455M_edit.jpg)).*
+
 ## ¿Qué es *Squad Leader*?
 
 *Squad Leader* es un **juego de guerra táctico** de la Segunda Guerra Mundial. Cada

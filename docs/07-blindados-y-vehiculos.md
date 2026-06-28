@@ -4,6 +4,13 @@
 
 ---
 
+![Carro M4 Sherman del 710.º Batallón de Carros en Leyte, Filipinas](assets/fotos/sherman.jpg)
+
+*Carro medio M4 Sherman del 710.º Batallón de Carros en Leyte, Filipinas (15 de agosto de
+1945); el jefe de carro lleva auriculares para coordinarse con la dotación y otros carros.
+Foto: Paul J. Mueller, US Army — dominio público
+([Wikimedia Commons](https://commons.wikimedia.org/wiki/File:M4_Sherman_Tank_of_710th_Tank_Battalion_in_Leyte,_Philippines_1945.jpg)).*
+
 > Los blindados aparecen de forma marginal en el juego base y se desarrollan a fondo en
 > **Cross of Iron** (1978) y siguientes. Si estás aprendiendo, **domina primero la
 > infantería** (capítulos 02–06) antes de meter carros.

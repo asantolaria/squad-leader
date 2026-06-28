@@ -4,6 +4,13 @@
 
 ---
 
+![Soldado estadounidense parapetado tras un cañón antitanque alemán capturado en Aquisgrán](assets/fotos/aachen-canon.jpg)
+
+*Un soldado de EE. UU. se parapeta tras un cañón antitanque alemán de 47 mm fuera de combate
+en Aquisgrán (19 de octubre de 1944) para apuntar a un francotirador. Foto: US Army Signal
+Corps — dominio público
+([Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SC_195600_-_Crouching_in_the_shelter_of_a_knocked-out_German_47mm_anti-tank_gun_in_Aachen,_Germany,_Pvt._William_Zukerbrow,_Brooklyn,_N.Y.,_draws_a_bead_on_a_Nazi_sniper._19_October,_1944._%2852598394419%29.jpg)).*
+
 Las armas pesadas son lo que convierte a un grupo de pelotones en una fuerza de combate
 real. Se dividen en **armas de apoyo (Support Weapons, SW)**, que transportan los pelotones,
 y **cañones (Guns)**, piezas con dotación que se despliegan en posición.
