@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="500" height="360" rx="12" fill="#eadfb8" stroke="#c8b88a" stroke-width="2"/>
+  <text x="250" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#3a3326">«La emboscada del camino» — mapa esquemático</text>
+
+  <!-- road -->
+  <rect x="20" y="198" width="460" height="44" fill="#9a9588"/>
+  <line x1="20" y1="220" x2="480" y2="220" stroke="#d9cba0" stroke-width="3" stroke-dasharray="14 10"/>
+  <text x="120" y="262" font-size="11" fill="#5a5648" font-style="italic">camino (rápido pero expuesto)</text>
+
+  <!-- woods with AT gun (ambush) -->
+  <rect x="232" y="96" width="120" height="84" rx="8" fill="#6f8f5a"/>
+  <g fill="#33502a" opacity="0.5"><circle cx="262" cy="124" r="11"/><circle cx="300" cy="116" r="12"/><circle cx="330" cy="132" r="10"/><circle cx="280" cy="150" r="10"/></g>
+  <!-- AT gun firing arc over the road -->
+  <path d="M 290 150 L 150 210 L 250 242 Z" fill="#bf4e30" opacity="0.18"/>
+  <rect x="276" y="138" width="28" height="22" rx="3" fill="#7a2222" stroke="#f4ecd8" stroke-width="1.5"/>
+  <text x="290" y="154" text-anchor="middle" font-size="10" fill="#f4ecd8" font-weight="bold">AT</text>
+  <text x="292" y="186" text-anchor="middle" font-size="11" fill="#1f3018" font-weight="bold">cañón AT oculto (Rojo)</text>
+
+  <!-- objective village -->
+  <rect x="396" y="86" width="38" height="32" fill="#7a5230" stroke="#2b2b2b"/>
+  <polygon points="396,86 415,70 434,86" fill="#5a3c22" stroke="#2b2b2b"/>
+  <rect x="440" y="92" width="30" height="26" fill="#8a6a45" stroke="#2b2b2b"/>
+  <polygon points="440,92 455,78 470,92" fill="#5a3c22" stroke="#2b2b2b"/>
+  <text x="432" y="134" text-anchor="middle" font-size="12" fill="#bf4e30" font-weight="bold">OBJETIVO (Rojo)</text>
+
+  <!-- attacker: tank + infantry (left) -->
+  <rect x="36" y="206" width="32" height="28" rx="3" fill="#3a4a2f" stroke="#f4ecd8" stroke-width="1.5"/>
+  <text x="52" y="225" text-anchor="middle" font-size="10" fill="#f4ecd8" font-weight="bold">CARRO</text>
+  <rect x="40" y="276" width="26" height="26" rx="3" fill="#6b705c" stroke="#f4ecd8" stroke-width="1.5"/>
+  <text x="53" y="293" text-anchor="middle" font-size="10" fill="#f4ecd8" font-weight="bold">A</text>
+  <rect x="72" y="276" width="26" height="26" rx="3" fill="#6b705c" stroke="#f4ecd8" stroke-width="1.5"/>
+  <text x="85" y="293" text-anchor="middle" font-size="10" fill="#f4ecd8" font-weight="bold">A</text>
+  <text x="70" y="322" text-anchor="middle" font-size="11" fill="#3a4a6b" font-weight="bold">Azul (atacante)</text>
+
+  <defs>
+    <marker id="arE2g" markerWidth="10" markerHeight="10" refX="5" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#3a6b3a"/></marker>
+    <marker id="arE2r" markerWidth="10" markerHeight="10" refX="5" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#bf4e30"/></marker>
+  </defs>
+  <!-- infantry flanks toward the AT gun -->
+  <path d="M 85 274 C 150 230, 200 200, 255 165" fill="none" stroke="#3a6b3a" stroke-width="3" marker-end="url(#arE2g)"/>
+  <!-- tank along road (risky until gun is dealt with) -->
+  <path d="M 70 220 L 200 220" fill="none" stroke="#bf4e30" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#arE2r)"/>
+
+  <text x="250" y="346" text-anchor="middle" font-size="11.5" fill="#3a3326">La infantería despeja el cañón AT; luego el carro avanza por el camino hacia el objetivo.</text>
+</svg>
