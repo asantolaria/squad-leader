@@ -1,6 +1,6 @@
 # 14 – Recursos y comunidad
 
-[⟵ Escenario de práctica](13-escenario-de-practica.md) · [Índice](index.md)
+[⟵ Escenario con carro](13b-escenario-con-carro.md) · [Índice](index.md)
 
 ---
 
@@ -69,4 +69,4 @@ comprar el juego.
 
 ---
 
-[⟵ Escenario de práctica](13-escenario-de-practica.md) · [Índice](index.md)
+[⟵ Escenario con carro](13b-escenario-con-carro.md) · [Índice](index.md)

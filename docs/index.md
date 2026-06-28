@@ -53,7 +53,8 @@ te da además una visión de conjunto para que entiendas el "porqué" de cada me
 | 10 | [Referencia rápida](10-referencia-rapida.md) | Resumen de secuencia y recordatorios para la mesa |
 | 11 | [Glosario y siglas](11-glosario.md) | Términos y abreviaturas habituales |
 | 12 | [Jugar en solitario](12-jugar-en-solitario.md) | Cómo jugar solo: bando automático, veteranía, consejos |
-| 13 | [Escenario de práctica](13-escenario-de-practica.md) | «El cruce del trigal»: primera partida comentada |
+| 13 | [Escenario de práctica](13-escenario-de-practica.md) | «El cruce del trigal»: primera partida comentada (infantería) |
+| 13b | [Escenario con carro](13b-escenario-con-carro.md) | «La emboscada del camino»: estrena las reglas de blindados |
 | 14 | [Recursos y comunidad](14-recursos-y-comunidad.md) | Enlaces a AARs, foros y dónde conseguir el juego |
 
 ---

@@ -1,6 +1,6 @@
 # 13 – Escenario de práctica: «El cruce del trigal»
 
-[⟵ Solitario](12-jugar-en-solitario.md) · [Índice](index.md) · [Siguiente: Recursos ⟶](14-recursos-y-comunidad.md)
+[⟵ Solitario](12-jugar-en-solitario.md) · [Índice](index.md) · [Siguiente: Escenario con carro ⟶](13b-escenario-con-carro.md)
 
 ---
 
@@ -132,4 +132,4 @@ aplicando lo aprendido. Sigue la [secuencia](02-secuencia-de-juego.md).
 
 ---
 
-[⟵ Solitario](12-jugar-en-solitario.md) · [Índice](index.md) · [Siguiente: Recursos ⟶](14-recursos-y-comunidad.md)
+[⟵ Solitario](12-jugar-en-solitario.md) · [Índice](index.md) · [Siguiente: Escenario con carro ⟶](13b-escenario-con-carro.md)
