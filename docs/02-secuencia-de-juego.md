@@ -202,6 +202,8 @@ disparan) en vez de fijar al defensor con fuego y dar el **último salto en avan
 
 ### 8. Fase de combate cuerpo a cuerpo (Close Combat / Melee)
 
+![Diagrama de la secuencia de combate cuerpo a cuerpo](assets/cuerpo-a-cuerpo.svg)
+
 Si hay unidades de **ambos bandos en el mismo hex**, se resuelve el **combate cuerpo a
 cuerpo** (regla 20.3).
 

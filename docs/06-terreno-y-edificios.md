@@ -62,6 +62,8 @@ fases, lo que más decisiones genera.
 
 ### La altura manda
 
+![Diagrama: la altura permite ver por encima de obstáculos, pero crea zonas muertas](assets/colina-los.svg)
+
 Las **colinas** tienen **niveles**. Una unidad en un nivel más alto:
 
 - **Ve por encima** de muchos obstáculos (puede tener LOS donde una unidad a ras no la
