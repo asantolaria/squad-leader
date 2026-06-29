@@ -13,3 +13,7 @@ __pycache__/
 # Sistema
 .DS_Store
 Thumbs.db
+
+# Material personal (no distribuir): reglamento original y traducción privada
+Squad_Leader_4th_Edition_Rules.pdf
+personal/
