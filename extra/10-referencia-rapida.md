@@ -1,6 +1,6 @@
 # 10 – Referencia rápida (para la mesa)
 
-[⟵ Módulos](09-modulos-y-reglas-avanzadas.md) · [Índice](index.md) · [Siguiente: Glosario ⟶](11-glosario.md)
+[← Extras](index.md) · [📖 Reglamento completo](https://asantolaria.github.io/squad-leader/)
 
 ---
 
@@ -134,4 +134,4 @@ Luego juega B con las mismas 8 fases; después avanza el marcador de turno.
 
 ---
 
-[⟵ Módulos](09-modulos-y-reglas-avanzadas.md) · [Índice](index.md) · [Siguiente: Glosario ⟶](11-glosario.md)
+[← Extras](index.md) · [📖 Reglamento completo](https://asantolaria.github.io/squad-leader/)

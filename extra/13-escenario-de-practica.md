@@ -1,6 +1,6 @@
 # 13 – Escenario de práctica: «El cruce del trigal»
 
-[⟵ Solitario](12-jugar-en-solitario.md) · [Índice](index.md) · [Siguiente: Escenario con carro ⟶](13b-escenario-con-carro.md)
+[← Extras](index.md) · [📖 Reglamento completo](https://asantolaria.github.io/squad-leader/)
 
 ---
 
@@ -60,8 +60,8 @@ atacante y la granja hay un **trigal abierto**: cruzarlo es el problema.
 - **Duración:** **6 turnos de juego**.
 - **Iniciativa:** empieza **Azul** (es quien ataca).
 - **Solo infantería** y armas de apoyo. Sin carros ni artillería.
-- Usa todas las reglas de los capítulos [02](02-secuencia-de-juego.md) a
-  [06](06-terreno-y-edificios.md).
+- Usa todas las reglas de los capítulos [02](https://asantolaria.github.io/squad-leader/01-conceptos-basicos/#r4) a
+  [06](https://asantolaria.github.io/squad-leader/06-terreno-avanzadas/).
 
 ## Condiciones de victoria
 
@@ -74,7 +74,7 @@ atacante y la granja hay un **trigal abierto**: cruzarlo es el problema.
 ## Tutorial: cómo afrontarlo (comentado)
 
 No te voy a dar "la solución" (cada partida es distinta), sino **cómo pensar** cada fase,
-aplicando lo aprendido. Sigue la [secuencia](02-secuencia-de-juego.md).
+aplicando lo aprendido. Sigue la [secuencia](https://asantolaria.github.io/squad-leader/01-conceptos-basicos/#r4).
 
 ### Turno 1 — Tantear y colocar fuego
 
@@ -132,4 +132,4 @@ aplicando lo aprendido. Sigue la [secuencia](02-secuencia-de-juego.md).
 
 ---
 
-[⟵ Solitario](12-jugar-en-solitario.md) · [Índice](index.md) · [Siguiente: Escenario con carro ⟶](13b-escenario-con-carro.md)
+[← Extras](index.md) · [📖 Reglamento completo](https://asantolaria.github.io/squad-leader/)

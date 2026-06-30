@@ -14,6 +14,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Material personal (no distribuir): reglamento original y traducción privada
+# Material privado (no distribuir): reglamento original, traducción literal,
+# tooling de build y PDFs generados. (Antes se llamaba personal/.)
 Squad_Leader_4th_Edition_Rules.pdf
-personal/
+reglamento/

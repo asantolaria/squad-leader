@@ -1,6 +1,6 @@
 # 13b – Escenario con carro: «La emboscada del camino»
 
-[⟵ Escenario de práctica](13-escenario-de-practica.md) · [Índice](index.md) · [Siguiente: Recursos ⟶](14-recursos-y-comunidad.md)
+[← Extras](index.md) · [📖 Reglamento completo](https://asantolaria.github.io/squad-leader/)
 
 ---
 
@@ -10,8 +10,8 @@ lo esencial del combate combinado: **carro + infantería juntos**, **emboscada d
 **disparo al flanco** y **asalto a un carro**.
 
 > Juégalo **después** de dominar el [escenario de infantería](13-escenario-de-practica.md), y
-> ten a mano el [capítulo 07 – Blindados](07-blindados-y-vehiculos.md) y el
-> [08 – Cañones](08-canones-y-armas-de-apoyo.md). Ideal en [solitario](12-jugar-en-solitario.md).
+> ten a mano el [capítulo 07 – Blindados](https://asantolaria.github.io/squad-leader/05-blindados/#r28) y el
+> [08 – Cañones](https://asantolaria.github.io/squad-leader/06-terreno-avanzadas/#r48). Ideal en [solitario](12-jugar-en-solitario.md).
 
 ---
 
@@ -61,8 +61,8 @@ arboleda que bate el camino, con algo de infantería protegiendo la aldea.
 
 - **Duración:** **6 turnos**.
 - **Iniciativa:** empieza **Azul**.
-- Se usan las reglas de **blindados** ([cap. 07](07-blindados-y-vehiculos.md)) y **cañones**
-  ([cap. 08](08-canones-y-armas-de-apoyo.md)), además de todo lo de infantería.
+- Se usan las reglas de **blindados** ([cap. 07](https://asantolaria.github.io/squad-leader/05-blindados/#r28)) y **cañones**
+  ([cap. 08](https://asantolaria.github.io/squad-leader/06-terreno-avanzadas/#r48)), además de todo lo de infantería.
 
 ## Condiciones de victoria
 
@@ -143,4 +143,4 @@ se protegen mutuamente.
 
 ---
 
-[⟵ Escenario de práctica](13-escenario-de-practica.md) · [Índice](index.md) · [Siguiente: Recursos ⟶](14-recursos-y-comunidad.md)
+[← Extras](index.md) · [📖 Reglamento completo](https://asantolaria.github.io/squad-leader/)

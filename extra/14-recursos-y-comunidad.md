@@ -1,6 +1,6 @@
 # 14 – Recursos y comunidad
 
-[⟵ Escenario con carro](13b-escenario-con-carro.md) · [Índice](index.md)
+[← Extras](index.md) · [📖 Reglamento completo](https://asantolaria.github.io/squad-leader/)
 
 ---
 
@@ -91,4 +91,4 @@ personal militar estadounidense en acto de servicio, sin copyright). Atribución
 
 ---
 
-[⟵ Escenario con carro](13b-escenario-con-carro.md) · [Índice](index.md)
+[← Extras](index.md) · [📖 Reglamento completo](https://asantolaria.github.io/squad-leader/)

@@ -1,53 +1,89 @@
-# Guía de Squad Leader (en castellano)
+# Squad Leader — Reglamento en castellano
 
-Guía didáctica original para aprender a jugar a **Squad Leader** (Avalon Hill, 1977, diseño
-de John Hill) y sus módulos (*Cross of Iron*, *Crescendo of Doom*, *GI: Anvil of Victory*).
+Traducción de aficionado al castellano del reglamento de **Squad Leader** (Avalon Hill,
+1977; diseño de John Hill), más material didáctico original para aprender a jugar.
 
-📖 **Web publicada:** https://asantolaria.github.io/squad-leader/
+🌐 **Web:** <https://asantolaria.github.io/squad-leader/>
 
-> Esta guía explica **con palabras propias** cómo funcionan las mecánicas del juego (reglas,
-> secuencia, procedimientos) y **no reproduce** el reglamento original ni sus tablas
-> numéricas, que están protegidas por derechos de autor. Para los valores exactos usa tus
-> propias cartas/tablas del juego. Es material de aprendizaje, no una copia del manual.
+| | |
+|---|---|
+| **Reglamento** (página principal) | <https://asantolaria.github.io/squad-leader/> |
+| **Aprende a jugar** (extras) | <https://asantolaria.github.io/squad-leader/extra/> |
 
-## Contenido
+> ### ⚖️ Aviso
+> Traducción **no oficial** y **sin ánimo de lucro**, hecha por un aficionado. Todos los
+> derechos del juego, sus reglas, textos e ilustraciones pertenecen a sus titulares (hoy
+> propiedad de Hasbro, con licencia de Multi-Man Publishing). Es una ayuda de juego para
+> quien **posee una copia original**; no la sustituye. Para los valores exactos, consulta
+> siempre tus cartas y tablas originales. Si algún titular de derechos desea su retirada,
+> se hará de inmediato.
 
-El contenido vive en [`docs/`](docs/) como Markdown:
+---
 
-1. Introducción y componentes
-2. Secuencia de juego
-3. Movimiento
-4. Fuego y combate
-5. Moral y liderazgo
-6. Terreno y edificios
-7. Blindados y vehículos
-8. Cañones y armas de apoyo
-9. Módulos y reglas avanzadas
-10. Referencia rápida
-11. Glosario y siglas
+## Estructura del sitio
 
-## Cómo ver la web en local
+- **`/` (raíz)** — el reglamento completo, troceado en 12 capítulos temáticos, con
+  diagramas propios, referencias de regla enlazadas y anclas estables por número
+  (p. ej. `…/05-blindados/#r33`).
+- **`/extra/`** — material didáctico original (palabras propias): jugar en solitario,
+  dos escenarios de práctica comentados, referencia rápida de mesa y recursos.
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-mkdocs serve          # http://127.0.0.1:8000
+## Estructura del repositorio
+
+```
+extra/             Material didáctico (versionado) — se publica en /extra/
+  assets/          Diagramas SVG propios + fotos de dominio público (US Gov),
+                   reutilizados también por el reglamento (web y PDF)
+  _borrador-guia/  Capítulos didácticos antiguos, archivados y sin publicar
+mkdocs.yml         Config de los extras (/extra/)
+deploy.sh          Construye y publica ambas partes en la rama gh-pages
+requirements.txt   mkdocs-material
+
+reglamento/        NO versionado (.gitignore) — traducción literal y herramientas
+                   reglamento-es.md, partes, mkdocs.yml, _build/,
+                   build.py (web), pdf.sh/build_pdf.py (PDF reglamento),
+                   build_pdf_extra.py (PDF extras),
+                   reglamento-es.pdf, aprende-a-jugar.pdf
 ```
 
-## Cómo publicar / actualizar la web
+El contenido de `reglamento/` (la traducción literal y los escaneos del original) **no
+forma parte del repositorio**: está en `.gitignore`. Solo el sitio ya construido se
+publica en la rama `gh-pages`.
 
-El sitio se publica en GitHub Pages (rama `gh-pages`) con:
+## Construir y desplegar
+
+Requisitos: Python con `mkdocs-material` y `ghp-import` (ver `requirements.txt`).
 
 ```bash
-mkdocs gh-deploy
+./deploy.sh
 ```
 
-Cada vez que edites un `.md` de `docs/`, vuelve a ejecutar ese comando para actualizar la
-web.
+Construye el reglamento en `site/` (raíz) y los extras en `site/extra/`, y sube el
+conjunto a la rama `gh-pages` con `ghp-import`.
 
-## Licencia
+> **Nota de autenticación:** el push a `gh-pages` debe hacerlo la cuenta dueña del repo.
+> Si usas varias cuentas con `gh`, activa la correcta antes de desplegar:
+> ```bash
+> gh auth switch --user asantolaria
+> ./deploy.sh
+> gh auth switch --user <tu-otra-cuenta>
+> ```
 
-Texto de la guía: material original del autor. *Squad Leader* y sus módulos son marca y obra
-con copyright de sus titulares (Avalon Hill / Hasbro / Wizards of the Coast / Multi-Man
-Publishing).
+Para previsualizar en local:
+
+```bash
+mkdocs serve -f reglamento/mkdocs.yml   # reglamento (raíz)
+mkdocs serve -f mkdocs.yml              # extras
+```
+
+## PDFs
+
+Se generan con pandoc + xelatex (quedan en `reglamento/`, privados). Los SVG se
+rasterizan con `google-chrome` (xelatex no incrusta SVG):
+
+```bash
+reglamento/pdf.sh               # -> reglamento/reglamento-es.pdf   (reglamento, con fotos/diagramas/enlaces)
+reglamento/build_pdf_extra.py   # -> reglamento/aprende-a-jugar.pdf (extras; obra propia, compartible)
+```
+
+Requiere `pandoc`, un motor LaTeX (`xelatex`), la fuente DejaVu y `google-chrome`.

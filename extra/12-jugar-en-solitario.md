@@ -1,6 +1,6 @@
 # 12 – Jugar en solitario
 
-[⟵ Glosario](11-glosario.md) · [Índice](index.md) · [Siguiente: Escenario de práctica ⟶](13-escenario-de-practica.md)
+[← Extras](index.md) · [📖 Reglamento completo](https://asantolaria.github.io/squad-leader/)
 
 ---
 
@@ -109,4 +109,4 @@ escenario al siguiente y **mejoren**. Sistema propio, ligero:
 
 ---
 
-[⟵ Glosario](11-glosario.md) · [Índice](index.md) · [Siguiente: Escenario de práctica ⟶](13-escenario-de-practica.md)
+[← Extras](index.md) · [📖 Reglamento completo](https://asantolaria.github.io/squad-leader/)

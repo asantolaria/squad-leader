@@ -1,7 +1,16 @@
-site_name: Guía de Squad Leader
-site_description: Guía didáctica en castellano para aprender a jugar a Squad Leader (Avalon Hill, 1977) y sus módulos.
+# Secciones EXTRA (material didáctico propio): se sirven en /squad-leader/extra/.
+# La página principal es el reglamento (ver reglamento/mkdocs.yml).
+# Los capítulos didácticos antiguos están archivados en _borrador-guia/ (sin publicar):
+# el reglamento ya cubre esas reglas; aquí solo va lo que aporta de nuevo.
+site_name: Squad Leader — Aprende a jugar
+site_description: Escenarios de práctica, juego en solitario, referencia rápida y recursos para Squad Leader (Avalon Hill, 1977).
 site_author: Alex Santolaria
-site_url: https://asantolaria.github.io/squad-leader/
+site_url: https://asantolaria.github.io/squad-leader/extra/
+docs_dir: extra
+site_dir: site/extra
+
+exclude_docs: |
+  _borrador-guia/
 
 theme:
   name: material
@@ -48,18 +57,9 @@ plugins:
 
 nav:
   - Inicio: index.md
-  - 01 · Introducción y componentes: 01-introduccion-componentes.md
-  - 02 · Secuencia de juego: 02-secuencia-de-juego.md
-  - 03 · Movimiento: 03-movimiento.md
-  - 04 · Fuego y combate: 04-fuego-y-combate.md
-  - 05 · Moral y liderazgo: 05-moral-y-liderazgo.md
-  - 06 · Terreno y edificios: 06-terreno-y-edificios.md
-  - 07 · Blindados y vehículos: 07-blindados-y-vehiculos.md
-  - 08 · Cañones y armas de apoyo: 08-canones-y-armas-de-apoyo.md
-  - 09 · Módulos y reglas avanzadas: 09-modulos-y-reglas-avanzadas.md
-  - 10 · Referencia rápida: 10-referencia-rapida.md
-  - 11 · Glosario y siglas: 11-glosario.md
-  - 12 · Jugar en solitario: 12-jugar-en-solitario.md
-  - 13 · Escenario de práctica (infantería): 13-escenario-de-practica.md
-  - 13b · Escenario con carro: 13b-escenario-con-carro.md
-  - 14 · Recursos y comunidad: 14-recursos-y-comunidad.md
+  - Jugar en solitario: 12-jugar-en-solitario.md
+  - Escenario de práctica (infantería): 13-escenario-de-practica.md
+  - Escenario con carro: 13b-escenario-con-carro.md
+  - Referencia rápida (mesa): 10-referencia-rapida.md
+  - Recursos y comunidad: 14-recursos-y-comunidad.md
+  - 📖 Reglamento completo: https://asantolaria.github.io/squad-leader/
