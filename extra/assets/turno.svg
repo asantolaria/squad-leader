@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="560" height="560" rx="12" fill="#f4ecd8" stroke="#c8b88a" stroke-width="2"/>
+  <text x="280" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#3a3326">Secuencia del turno de un jugador</text>
+
+  <!-- legend -->
+  <g font-size="13" fill="#3a3326">
+    <rect x="60" y="48" width="16" height="16" fill="#6b705c"/>
+    <text x="82" y="61">Actúa el bando en fase</text>
+    <rect x="300" y="48" width="16" height="16" fill="#bf4e30"/>
+    <text x="322" y="61">Dispara el bando inactivo</text>
+  </g>
+
+  <!-- phases -->
+  <g font-size="16" fill="#f4ecd8">
+    <!-- 1 -->
+    <rect x="120" y="80" width="320" height="44" rx="8" fill="#6b705c" stroke="#2b2b2b"/>
+    <text x="138" y="108" font-weight="bold">1.</text>
+    <text x="170" y="108">Reagrupamiento</text>
+    <!-- 2 -->
+    <rect x="120" y="136" width="320" height="44" rx="8" fill="#6b705c" stroke="#2b2b2b"/>
+    <text x="138" y="164" font-weight="bold">2.</text>
+    <text x="170" y="164">Fuego preparado (plena potencia)</text>
+    <!-- 3 -->
+    <rect x="120" y="192" width="320" height="44" rx="8" fill="#6b705c" stroke="#2b2b2b"/>
+    <text x="138" y="220" font-weight="bold">3.</text>
+    <text x="170" y="220">Movimiento</text>
+    <!-- 4 -->
+    <rect x="120" y="248" width="320" height="44" rx="8" fill="#bf4e30" stroke="#2b2b2b"/>
+    <text x="138" y="276" font-weight="bold">4.</text>
+    <text x="170" y="276">Fuego defensivo</text>
+    <!-- 5 -->
+    <rect x="120" y="304" width="320" height="44" rx="8" fill="#6b705c" stroke="#2b2b2b"/>
+    <text x="138" y="332" font-weight="bold">5.</text>
+    <text x="170" y="332">Fuego de avance (media potencia)</text>
+    <!-- 6 -->
+    <rect x="120" y="360" width="320" height="44" rx="8" fill="#6b705c" stroke="#2b2b2b"/>
+    <text x="138" y="388" font-weight="bold">6.</text>
+    <text x="170" y="388">Desbandada (huyen los rotos)</text>
+    <!-- 7 -->
+    <rect x="120" y="416" width="320" height="44" rx="8" fill="#6b705c" stroke="#2b2b2b"/>
+    <text x="138" y="444" font-weight="bold">7.</text>
+    <text x="170" y="444">Avance (1 hex, sin fuego)</text>
+    <!-- 8 -->
+    <rect x="120" y="472" width="320" height="44" rx="8" fill="#6b705c" stroke="#2b2b2b"/>
+    <text x="138" y="500" font-weight="bold">8.</text>
+    <text x="170" y="500">Combate cuerpo a cuerpo</text>
+  </g>
+
+  <!-- flow arrows -->
+  <g stroke="#3a3326" stroke-width="2" fill="none">
+    <path d="M 110 102 L 90 102 L 90 530 L 110 530" marker-end="url(#ar)"/>
+  </g>
+  <g stroke="#3a3326" stroke-width="2.5" fill="none" marker-end="url(#ar2)">
+    <line x1="280" y1="124" x2="280" y2="134"/>
+    <line x1="280" y1="180" x2="280" y2="190"/>
+    <line x1="280" y1="236" x2="280" y2="246"/>
+    <line x1="280" y1="292" x2="280" y2="302"/>
+    <line x1="280" y1="348" x2="280" y2="358"/>
+    <line x1="280" y1="404" x2="280" y2="414"/>
+    <line x1="280" y1="460" x2="280" y2="470"/>
+  </g>
+
+  <!-- simultaneous markers -->
+  <g font-size="12" fill="#7a5230" font-style="italic">
+    <text x="448" y="107">simultáneo</text>
+    <text x="448" y="387">simultáneo</text>
+    <text x="448" y="499">simultáneo</text>
+  </g>
+
+  <defs>
+    <marker id="ar2" markerWidth="9" markerHeight="9" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#3a3326"/>
+    </marker>
+  </defs>
+</svg>

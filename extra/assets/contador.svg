@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="680" height="340" rx="12" fill="#f4ecd8" stroke="#c8b88a" stroke-width="2"/>
+  <text x="340" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#3a3326">Cómo leer una ficha</text>
+
+  <!-- Squad counter -->
+  <g>
+    <rect x="95" y="105" width="150" height="150" rx="10" fill="#6b705c" stroke="#2b2b2b" stroke-width="3"/>
+    <!-- infantry NATO symbol -->
+    <rect x="135" y="130" width="70" height="42" fill="none" stroke="#f4ecd8" stroke-width="3"/>
+    <line x1="135" y1="130" x2="205" y2="172" stroke="#f4ecd8" stroke-width="3"/>
+    <line x1="205" y1="130" x2="135" y2="172" stroke="#f4ecd8" stroke-width="3"/>
+    <!-- factors -->
+    <text x="120" y="232" font-size="40" font-weight="bold" fill="#f4ecd8">4</text>
+    <text x="158" y="232" font-size="40" font-weight="bold" fill="#f4ecd8">6</text>
+    <text x="196" y="232" font-size="40" font-weight="bold" fill="#f4ecd8">7</text>
+    <text x="170" y="280" text-anchor="middle" font-size="15" fill="#3a3326" font-style="italic">Pelotón de infantería</text>
+  </g>
+  <!-- callouts squad -->
+  <g font-size="14" fill="#3a3326">
+    <line x1="118" y1="248" x2="70" y2="300" stroke="#bf4e30" stroke-width="2"/>
+    <circle cx="118" cy="218" r="3" fill="#bf4e30"/>
+    <text x="20" y="316">Potencia de fuego</text>
+    <line x1="170" y1="200" x2="170" y2="92" stroke="#bf4e30" stroke-width="2"/>
+    <circle cx="170" cy="218" r="3" fill="#bf4e30"/>
+    <text x="170" y="86" text-anchor="middle">Alcance</text>
+    <line x1="208" y1="248" x2="270" y2="300" stroke="#bf4e30" stroke-width="2"/>
+    <circle cx="208" cy="218" r="3" fill="#bf4e30"/>
+    <text x="270" y="316">Moral</text>
+  </g>
+
+  <!-- Leader counter -->
+  <g>
+    <rect x="455" y="105" width="150" height="150" rx="10" fill="#7a5230" stroke="#2b2b2b" stroke-width="3"/>
+    <!-- leader chevron -->
+    <path d="M 500 138 L 530 122 L 560 138" fill="none" stroke="#f4ecd8" stroke-width="4"/>
+    <path d="M 500 152 L 530 136 L 560 152" fill="none" stroke="#f4ecd8" stroke-width="4"/>
+    <text x="530" y="232" text-anchor="middle" font-size="40" font-weight="bold" fill="#f4ecd8">9-1</text>
+    <text x="530" y="280" text-anchor="middle" font-size="15" fill="#3a3326" font-style="italic">Líder</text>
+  </g>
+  <!-- callouts leader -->
+  <g font-size="14" fill="#3a3326">
+    <line x1="512" y1="218" x2="455" y2="300" stroke="#bf4e30" stroke-width="2"/>
+    <circle cx="512" cy="205" r="3" fill="#bf4e30"/>
+    <text x="405" y="316">Moral</text>
+    <line x1="548" y1="218" x2="630" y2="160" stroke="#bf4e30" stroke-width="2"/>
+    <circle cx="548" cy="205" r="3" fill="#bf4e30"/>
+    <text x="612" y="150" text-anchor="end">Modificador</text>
+    <text x="612" y="166" text-anchor="end">de mando</text>
+  </g>
+</svg>
