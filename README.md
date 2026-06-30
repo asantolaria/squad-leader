@@ -61,12 +61,15 @@ Requisitos: Python con `mkdocs-material` y `ghp-import` (ver `requirements.txt`)
 Construye el reglamento en `site/` (raíz) y los extras en `site/extra/`, y sube el
 conjunto a la rama `gh-pages` con `ghp-import`.
 
-> **Nota de autenticación:** el push a `gh-pages` debe hacerlo la cuenta dueña del repo.
-> Si usas varias cuentas con `gh`, activa la correcta antes de desplegar:
+> **Autenticación:** este repo está configurado (credential helper **local**, en
+> `.git/config`, no versionado) para que git use siempre la cuenta `asantolaria` vía el
+> PAT guardado en `gh`, **sin** cambiar la cuenta activa global ni guardar el token en
+> texto plano. Así `./deploy.sh` y `git push` funcionan aunque la cuenta `gh` activa sea
+> otra. Si reclonas el repo, reconfigúralo una vez:
 > ```bash
-> gh auth switch --user asantolaria
-> ./deploy.sh
-> gh auth switch --user <tu-otra-cuenta>
+> git config --local credential.helper ""
+> git config --local --add credential.helper \
+>   '!f() { printf "username=asantolaria\npassword=%s\n" "$(gh auth token --user asantolaria)"; }; f'
 > ```
 
 Para previsualizar en local:
